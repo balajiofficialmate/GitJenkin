@@ -22,7 +22,7 @@ public void validateBing() throws IOException {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.bing.com/");
 	WebElement input= driver.findElement(By.name("q"));
-	input.sendKeys("chennai");
+	input.sendKeys("Cchennai");
 	input.submit();
 	File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileHandler.copy(src, new File("C:\\Users\\Public\\ECLIPSE\\I1_GitHubTest\\Screenshot/bing.png"));

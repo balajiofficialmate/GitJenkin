@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="BingTest">
+  
+  
+  <test thread-count="5" name="simpleGoogleTest">
     <classes>
-      
+      <class name="googleTest.simpleGoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  <test thread-count="5" name="simpleBingTest">
+    <classes>
       <class name="bingTest.simpleBingTest"/>
     </classes>
   </test> <!-- Test -->
-
-
-  <test thread-count="5" name="GoogleTest">
-    <classes>
-      <class name="googleTest.simpleGoogleTest"/>
-      
-    </classes>
-  </test> <!-- Test -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-16T13:51:43 IST" name="Suite" finished-at="2023-04-16T13:52:23 IST" duration-ms="40000">
+    <groups>
+    </groups>
+    <test started-at="2023-04-16T13:51:43 IST" name="simpleGoogleTest" finished-at="2023-04-16T13:52:14 IST" duration-ms="31222">
+      <class name="googleTest.simpleGoogleTest">
+        <test-method signature="validateBing()[pri:0, instance:googleTest.simpleGoogleTest@1b7cc17c]" started-at="2023-04-16T13:51:43 IST" name="validateBing" finished-at="2023-04-16T13:52:14 IST" duration-ms="31082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBing -->
+      </class> <!-- googleTest.simpleGoogleTest -->
+    </test> <!-- simpleGoogleTest -->
+    <test started-at="2023-04-16T13:52:14 IST" name="simpleBingTest" finished-at="2023-04-16T13:52:23 IST" duration-ms="8523">
+      <class name="bingTest.simpleBingTest">
+        <test-method signature="validateBing()[pri:0, instance:bingTest.simpleBingTest@776aec5c]" started-at="2023-04-16T13:52:14 IST" name="validateBing" finished-at="2023-04-16T13:52:23 IST" duration-ms="8508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBing -->
+      </class> <!-- bingTest.simpleBingTest -->
+    </test> <!-- simpleBingTest -->
+  </suite> <!-- Suite -->
+</testng-results>
